@@ -1,0 +1,25 @@
+.home-cards {
+  display: grid;
+  gap: 12px;
+}
+
+.home-priority {
+  display: grid;
+  gap: 8px;
+}
+
+.project-list {
+  display: grid;
+  gap: 12px;
+}
+
+.more-actions {
+  display: grid;
+  gap: 10px;
+}
+
+@media (min-width: 760px) {
+  .home-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
